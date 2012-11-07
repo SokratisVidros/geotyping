@@ -20,7 +20,7 @@
         BufferedReader reader = new BufferedReader(new InputStreamReader(conn.getInputStream(),"UTF8"));
         String inputLine;
         
-	while ( (inputLine = reader.readLine()) != null) {
+	while ((inputLine = reader.readLine()) != null) {
         	reply.append(inputLine);
 			System.err.println("Response: " + inputLine);
 	}
