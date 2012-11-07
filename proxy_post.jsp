@@ -6,7 +6,7 @@
 
     try {    
     	String encodedParameters = URLEncoder.encode(request.getParameter("sentence"),"UTF-8");
-        System.err.println(request.getParameter("sentence"));
+        //System.out.println(request.getParameter("sentence"));
 
 	URL url = new URL(address);
         URLConnection conn = url.openConnection();
