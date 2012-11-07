@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+
+.highlight {
+	background-color: yellow;
+}
+
+.ghost {
+	display: none !important;
+	visibility: hidden !important;
+}
