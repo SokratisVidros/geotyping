@@ -6,7 +6,7 @@
  */
 body {
 	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 18px;
+	font-size: 14px;
 	color: #313131;;
 	background: #fff url(../images/background.png) top left repeat-x;
 }
@@ -99,6 +99,11 @@ a {
 
 #list-buttons:hover {
 	background-color: #cf0;
+}
+
+#openList, #closeList {
+	width: 100%;
+	height: 100%;
 }
 
 #map-list {
